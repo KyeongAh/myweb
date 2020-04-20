@@ -1,0 +1,66 @@
+header h1{
+ color: rgba(4, 123, 193, 0.5);
+ font-size: 4em; 
+}
+
+.serif{font-family: "roboto", serif}
+
+.headerImage{
+ background-image: url(../images/Marble%201.jpg);
+ background-position: center center;
+ background-size: cover;
+ height: 50vh;
+}
+
+.headerImage2{
+ background-image: url(../images/%EB%8F%84%EB%8F%84%EB%8F%84%202.png);
+ background-position: center center;
+ background-size: cover;
+ height: 100vh;
+}
+
+
+ nav{
+	background-color: #222;
+	text-align: center
+      
+}
+
+nav ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a:link{
+	color: paleturquoise;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #222;
+	width: 150px;
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+	text-align: center;
+}
+
+nav a:hover{
+	background-color: #555;
+}
+
+container{ padding-bottom: 50px;}
+ footer{
+    padding-top: 70px;
+     background-color: black;
+     color: aliceblue;
+    text-align: right;
+     height: 150px;
+    
+  }
+
+
